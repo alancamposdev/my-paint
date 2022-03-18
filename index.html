@@ -1,33 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+
   <script src="script.js" defer></script>
   <title>Document</title>
 </head>
+
 <body>
-  <div class="container">
-    <div class="title">Bem-vindo ao   <span>Desenhando</span></div>
-    <canvas></canvas>
 
-    <div class="colorBox">
-      <div data-color="" class="color"></div>
-      <div data-color="" class="color"></div>
-      <div data-color="" class="color"></div>
-      <div data-color="" class="color"></div>
-      <div data-color="" class="color"></div>
-      <div data-color="" class="color"></div>
+  <header class="header">
+   
+      <i class="bi bi-palette"></i>
+      <span>Bem-vindo ao</span>
+      <h1>Desenhando</h1>
+    
+  </header>
+
+  <main class="container">
+    <canvas class="canvas"></canvas>
+
+    <div class="wrapper">
+      <div class="display"></div>
+
+      <div class="colorBox">
+        
+          <div data-color="black" class="color" style="background-color: black"></div>
+          <div data-color="" class="color" style="background-color: gray"></div>
+          <div data-color="" class="color" style="background-color: darkred"></div>
+          <div data-color="" class="color" style="background-color: red"></div>
+          <div data-color="" class="color" style="background-color: orange"></div>
+          <div data-color="" class="color" style="background-color: yellow"></div>
+          <div data-color="" class="color" style="background-color: green"></div>
+          <div data-color="" class="color" style="background-color: turquoise"></div>
+          <div data-color="" class="color" style="background-color: blue"></div>
+          <div data-color="" class="color" style="background-color: purple"></div>
+       
+        
+          <div data-color="" class="color" style="background-color: white"></div>
+          <div data-color="" class="color" style="background-color: lightgray"></div>
+          <div data-color="" class="color" style="background-color: chocolate"></div>
+          <div data-color="" class="color" style="background-color: pink"></div>
+          <div data-color="" class="color" style="background-color: gold"></div>
+          <div data-color="" class="color" style="background-color: lightyellow"></div>
+          <div data-color="" class="color" style="background-color: yellowgreen"></div>
+          <div data-color="" class="color" style="background-color: lightblue"></div>
+          <div data-color="" class="color" style="background-color: mediumslateblue"></div>
+          <div data-color="" class="color" style="background-color: magenta"></div>
+      
     </div>
-    <button class="clear">limpar quadro</button>
+    </div>
+    <div class="btn">
+      <button class="clear">limpar quadro</button>
+    </div>
+    
+  </main>
 
+  <footer>
+    <p>AlanCampos</p>
+  </footer> 
 
-    <footer>
-
-    </footer>
-  </div>
-  
 </body>
+
 </html>
