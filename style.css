@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 body{
-  width: 100%; 
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #D3D3D3;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* header */
@@ -52,10 +57,7 @@ main{
   
 }
 .canvas{
-  width:99%; 
-  height: 70%;
-  margin: auto;
-  
+  margin: auto;  
   background-color: #f2f2f2;
   border: 3px solid gray;
   border-radius: 6px;
@@ -129,4 +131,8 @@ footer{
   display: flex;
   place-content: center;
   align-items: center; 
+}
+
+.active{
+  border: 3px solid #ccc;
 }
